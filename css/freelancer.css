@@ -4,6 +4,17 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+#profile {
+  display: block;
+  margin: auto;
+}
+
+.portfolio-photo {
+  outline: 3px solid black;
+}
+#education-info {
+  text-align: center;
+}
 body {
   overflow-x: hidden;
 }
@@ -42,7 +53,7 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f005";
+  content: "\f17b";
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
@@ -69,7 +80,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18bc9c;
+  background: #18bc9c;  
   color: white;
 }
 header .container {
